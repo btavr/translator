@@ -1,6 +1,6 @@
 import requests, uuid, json 
 
-key = "<your-translator-key>"
+key = "cc93841f4ace46d9b9795612a2743994"
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
 location = "westeurope"
@@ -30,5 +30,3 @@ request = requests.post(constructed_url, params=params, headers=headers, json=bo
 response = request.json()
 
 print(json.dumps(response, sort_keys=True, ensure_ascii=False, indent=4, separators=(',', ': ')))
-
-#comment
