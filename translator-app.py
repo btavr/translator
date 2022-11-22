@@ -22,8 +22,7 @@ headers = {
 }
 
 body = [{
-    'text': 'I would really like to drive your car around the block a few times!',
-    "text": "Let's go visit Porto"
+    "text": "I would really like to drive your car around the block a few times! Let's go visit Porto"
 }]
 
 request = requests.post(constructed_url, params=params, headers=headers, json=body)

@@ -11,14 +11,13 @@ This should be an output example
     {
         "translations": [
             {
-                "text": "Vamos visitar o Porto",
+                "text": "Gostaria de dirigir o seu carro pelo quarteirão algumas vezes! Vamos visitar o Porto",
                 "to": "pt-PT"
             },
             {
-                "text": "Давайте посетим Порту",
+                "text": "Очень хотелось бы несколько раз проехать на своей машине по кварталу! Давайте посетим Порту",  
                 "to": "ru"
             }
         ]
     }
 ]
-```
