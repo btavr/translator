@@ -1,6 +1,6 @@
 import requests, uuid, json 
 
-key = "cc93841f4ace46d9b9795612a2743994"
+key = "<your-translator-key>"
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
 location = "westeurope"
